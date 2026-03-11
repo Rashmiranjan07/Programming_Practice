@@ -1,15 +1,17 @@
 package com.qsp.day3;
+//Q. Write a java program to check in between 1-100 which one is prime or not 
 
 class CheckPrimeNumber {
 	public static void main(String[] args) {
 		for (int i = 1; i <= 100; i++) {
-			if(soluction(i)) {
-				System.out.println(i+" is prime");
+			if (soluction(i)) {
+				System.out.println(i + " is prime");
 			} else {
-				System.out.println(i+" is not a prime");
+				System.out.println(i + " is not a prime");
 			}
 		}
 	}
+
 	public static boolean soluction(int n) {
 		if (n <= 1)
 			return false;
@@ -22,8 +24,7 @@ class CheckPrimeNumber {
 	}
 }
 
-
-// reverse
+// Q. Write  a java program to print all the prime number 1-100 in reverse order 
 
 class CheckPrimeNumber2 {
 	public static void main(String[] args) {
