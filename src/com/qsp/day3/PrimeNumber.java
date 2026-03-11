@@ -6,7 +6,7 @@ import java.util.Scanner;
 class PrimeNumber {
 	public static void main(String[] args) {
 		System.out.println("Enter number");
-		int n=new Scanner(System.in).nextInt();
+		int n = new Scanner(System.in).nextInt();
 		System.out.println(soluction(n));
 	}
 
@@ -18,7 +18,7 @@ class PrimeNumber {
 			if (n % i == 0)
 				count++;
 		}
-		return count==2;
+		return count == 2;
 //		if (count == 2)
 //			return true;
 //		else
@@ -35,6 +35,7 @@ class PrimeNumber2 {
 		int n = new Scanner(System.in).nextInt();
 		System.out.println(soluction(n));
 	}
+
 	public static boolean soluction(int n) {
 		if (n <= 1)
 			return false;
@@ -54,10 +55,11 @@ class PrimeNumber3 {
 		int n = new Scanner(System.in).nextInt();
 		System.out.println(solution(n));
 	}
+
 	public static boolean solution(int n) {
 		if (n <= 1)
 			return false;
-		for (int i = 2; i*i<=n; i++) { 
+		for (int i = 2; i * i <= n; i++) {
 			if (n % i == 0) {
 				return false;
 			}
@@ -66,4 +68,32 @@ class PrimeNumber3 {
 	}
 }
 
+// Q. Write  a java program to print all the prime numbers in a range given by user
 
+class PrimeNumber4 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter lower limit");
+		int lower = sc.nextInt();
+		System.out.println("Enter upper limit");
+		int upper = sc.nextInt();
+		for (int i = lower; i <= upper; i++) {
+			if (soluction(i)) {
+				System.out.println(i);
+			}
+		}
+
+	}
+
+	public static boolean soluction(int n) {
+		if (n <= 1)
+			return false;
+		for (int i = 2; i * i <= n; i++) {
+			if (n % i == 0) {
+				return false;
+			}
+		}
+		return true;
+	}
+
+}
