@@ -26,4 +26,5 @@ class SumofDigits2 {
 		}
 		return res;
 	}
+	/* 66 */
 }
