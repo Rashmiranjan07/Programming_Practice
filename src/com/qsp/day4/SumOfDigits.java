@@ -43,4 +43,5 @@ class SumofDigits3 {
 			return 0;
 		return n + sum(n - 1);
 	}
+	/* 55 */
 }
