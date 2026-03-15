@@ -12,7 +12,7 @@ class SumOfDigits {
 	/* 55 */
 }
 
-
+// 2nd method
 class SumofDigits2 {
 	public static void main(String[] args) {
 		System.out.println(sum(11));
