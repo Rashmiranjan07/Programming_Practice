@@ -31,7 +31,7 @@ class SumofDigits2 {
 
 
 
-// By Recursion formulae 
+// By Recursion formulae Sum of all Digits   
 class SumofDigits3 {
 	public static void main(String[] args) {
 		System.out.println(sum(10));
