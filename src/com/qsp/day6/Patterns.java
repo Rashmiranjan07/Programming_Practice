@@ -41,20 +41,17 @@ class pattern2 {
 
 	}
 	/*
-Enter no of row
-6
-*
-**
-***
-****
-*****
-******
+	 * Enter no of row 6
+	 *
+	 **
+	 ***
+	 ****
+	 *****
+	 ******
 	 */
 }
 
-
-
-class Pattern3{
+class Pattern3 {
 	public static void main(String[] args) {
 		System.out.println("Enter no of row");
 		int n = new Scanner(System.in).nextInt();
@@ -67,18 +64,11 @@ class Pattern3{
 
 	}
 	/*
-Enter no of row
-5
-1
-12
-123
-1234
-12345
+	 * Enter no of row 5 1 12 123 1234 12345
 	 */
 }
 
-
-class Pattern4{
+class Pattern4 {
 	public static void main(String[] args) {
 		System.out.println("Enter no of row");
 		int n = new Scanner(System.in).nextInt();
@@ -91,12 +81,34 @@ class Pattern4{
 
 	}
 	/*
+	 * Enter no of row 5 1 22 333 4444 55555
+	 */
+}
+
+class pattern5 {
+	public static void main(String[] args) {
+		System.out.println("Enter no of row");
+		int n = new Scanner(System.in).nextInt();
+		for (int i = 1; i <= n; i++) {
+			for (int j = 1; j <= n; j++) {
+				if (i == n || i == j || j == 1) {
+					System.out.print("*");
+				} else {
+					System.out.print(" ");
+				}
+			}
+			System.out.println();
+		}
+
+	}
+	/*
 Enter no of row
-5
-1
-22
-333
-4444
-55555
+6
+*     
+**    
+* *   
+*  *  
+*   * 
+******
 	 */
 }
