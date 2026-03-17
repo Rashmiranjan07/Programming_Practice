@@ -89,10 +89,13 @@ class NumberPattern4{
 	/*
 Enter no of row
 5
-54321
-5432
-543
-54
-5
+12345
+1234
+123
+12
+1
 	 */
 }
+
+
+
