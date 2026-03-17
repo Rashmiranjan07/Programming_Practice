@@ -14,4 +14,13 @@ class NumberPattern {
 		}
 
 	}
+	/*
+Enter no of row
+5
+55555
+4444
+333
+22
+1
+	 */
 }
