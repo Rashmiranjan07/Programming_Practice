@@ -81,7 +81,12 @@ class Pattern4 {
 
 	}
 	/*
-	 * Enter no of row 5 1 22 333 4444 55555
+	 * Enter no of row 5
+	 *  1
+	 *  22 
+	 *  333
+	 *  4444
+	 *  55555
 	 */
 }
 
