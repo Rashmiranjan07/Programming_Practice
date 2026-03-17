@@ -31,4 +31,10 @@ class SumAndMultiDigit {
 		}
 		return multi;
 	}
+	/*
+Enter a number: 
+123
+6
+6
+	 */
 }
