@@ -16,5 +16,14 @@ class Pattern6 {
             }
             System.out.println();
         }
-    }  
+    } 
+    /*
+ Enter the value of n
+5
+*****
+ ****
+  ***
+   **
+    *
+     */
 }
