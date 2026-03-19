@@ -44,6 +44,17 @@ class Pattern1 {
 			System.out.println();
 		}
 	}
+	/*
+Emter the number of row: 8
+********
+ *******
+  ******
+   *****
+    ****
+     ***
+      **
+       *
+	 */
 }
 
 
