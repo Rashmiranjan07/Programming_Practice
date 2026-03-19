@@ -17,4 +17,9 @@ class NoofDigits {
 		}
 		return count;
 	}
+	/*
+Emter a number: 23456
+5
+
+	 */
 }
