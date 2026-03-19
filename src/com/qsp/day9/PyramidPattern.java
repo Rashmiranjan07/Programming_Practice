@@ -122,5 +122,40 @@ Enter the number of row: 5
 	 */
 }
 
+class PyramidPattern5{
+	public static void main(String[] args) {
+		System.out.print("Enter the number of row: ");
+		int n = new Scanner(System.in).nextInt();
+		int sp = 0;
+		int st = (n*2)-1;
+		for (int i = 1; i <= n; i++) {
+			for (int j = 1; j <= sp; j++) {
+				System.out.print(" ");
+			}
+			for (int k = 1; k <= st; k++) {
+				if (i == 1 || i == n || st == k || k == 1)
+					System.out.print("*");
+				else
+					System.out.print(" ");
+			}
+			sp++;
+			st -= 2;
+			System.out.println();
+		}
+	}
+/*
+ Enter the number of row: 9
+*****************
+ *             *
+  *           *
+   *         *
+    *       *
+     *     *
+      *   *
+       * *
+        *
+ */
+	
+}
 
 
