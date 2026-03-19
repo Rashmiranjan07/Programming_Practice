@@ -27,3 +27,7 @@ class Pattern6 {
     *
      */
 }
+
+
+
+
