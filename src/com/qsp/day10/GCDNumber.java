@@ -1,8 +1,17 @@
 package com.qsp.day10;
 
+import java.util.Scanner;
+
 class GCDNumber {
 	public static void main(String[] args) {
-		System.out.println(gcd(3, 93));
+		 Scanner sc = new Scanner(System.in);
+	        System.out.println("Enter the first number");
+	        int n1 = sc.nextInt();
+	        System.out.println("Enter the first number");
+	        int n2 = sc.nextInt();
+	        int res=gcd(n1,n2);
+	        System.out.println("GCD of "+n1+" and "+n2+" is "+res);
+
 	}
 	static int gcd(int n1, int n2) {
 		//int min = n1 > n2 ? n2 : n1;
@@ -14,4 +23,11 @@ class GCDNumber {
 		}
 		return 1;
 	}
+	/*
+Enter the first number
+150
+Enter the first number
+625
+GCD of 150 and 625 is 25
+	 */
 }
