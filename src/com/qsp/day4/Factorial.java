@@ -11,4 +11,5 @@ class Factorial {
 		return n * fact(n - 1);
 	}
 /* 120 */
+	
 }
