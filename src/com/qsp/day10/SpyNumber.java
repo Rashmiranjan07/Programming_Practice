@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class SpyNumber {
 	public static void main(String[] args) {
-		System.out.println("Enter sequence number");
+		System.out.println("Enter a number");
 		int n = new Scanner(System.in).nextInt();
 		System.out.println(isSpy(n));
 	}
@@ -20,5 +20,11 @@ public class SpyNumber {
 		}
 		return sum == multiply;
 	}
+	/*
+Enter sequence number
+123
+true
+
+	 */
 
 }
