@@ -15,6 +15,7 @@ class Square1 {
 		}
 	}
 	
+	
 	/*
  Enter a number
 5
