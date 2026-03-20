@@ -18,7 +18,7 @@ class Patterns {
 		}
 	}
 	/*
-	 * Enter the value of n= 5
+	  Enter the value of n= 5
 	 *
 	 **
 	 ***
