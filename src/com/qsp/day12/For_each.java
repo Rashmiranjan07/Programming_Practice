@@ -88,3 +88,30 @@ class PrimeNumber {
 7 
 */
 }
+
+
+class Factorial {
+    public static void main(String[] args) {
+        int a[] = {4, 2, 0, 3, 5};
+
+        for (int x : a) {
+            int result = factorial(x);
+            System.out.println("Factorial of " + x + " = " + result);
+        }
+    }
+
+    static int factorial(int n) {
+        int fact = 1;
+        for (int i = 1; i <= n; i++) {
+            fact *= i;
+        }
+        return fact;
+    }
+    /*
+ Factorial of 4 = 24
+Factorial of 2 = 2
+Factorial of 0 = 1
+Factorial of 3 = 6
+Factorial of 5 = 120
+     */
+}
