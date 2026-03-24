@@ -1,5 +1,6 @@
 package com.qsp.day12;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 class Array {
@@ -11,9 +12,11 @@ class Array {
 			a[i]=sc.nextInt();
 		}
 		System.out.println("------------");
-		for(int i=0; i<a.length; i++) {
-			System.out.println(a[i]);
-		}
+//		for(int i=0; i<a.length; i++) {
+//			System.out.println(a[i]);
+//		}
+		String res=Arrays.toString(a);
+		System.out.println(res);
 	}
 /*
 Enter element no 1
