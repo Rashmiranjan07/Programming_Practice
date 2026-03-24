@@ -15,5 +15,13 @@ class Array {
 			System.out.println(a[i]);
 		}
 	}
-
+/*
+Enter element no 1
+22
+Enter element no 2
+23
+Enter element no 3
+24
+ */
 }
+
