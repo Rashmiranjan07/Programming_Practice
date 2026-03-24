@@ -108,7 +108,7 @@ class Factorial {
         return fact;
     }
     /*
- Factorial of 4 = 24
+Factorial of 4 = 24
 Factorial of 2 = 2
 Factorial of 0 = 1
 Factorial of 3 = 6
