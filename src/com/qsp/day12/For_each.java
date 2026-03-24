@@ -63,3 +63,22 @@ class x {
 	 */
 }
 
+class PrimeNumber {
+	public static void main(String[] args) {
+		int a[] = { 5, 2, 9, 6, 2, 7 };
+		for (int x : a) {
+			if (isPrime(x)) {
+				System.out.println(x + " ");
+			}
+		}
+	}
+	public static boolean isPrime(int n) {
+		if (n <= 1)
+			return false; // 1 and below are not prime
+		for (int i = 2; i <= Math.sqrt(n); i++) {
+			if (n % i == 0)
+				return false; // Found a divisor
+		}
+		return true;
+	}
+}
