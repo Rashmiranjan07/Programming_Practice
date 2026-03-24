@@ -68,7 +68,7 @@ class PrimeNumber {
 		int a[] = { 5, 2, 9, 6, 2, 7 };
 		for (int x : a) {
 			if (isPrime(x)) {
-				System.out.println(x + " ");
+				System.out.println(x);
 			}
 		}
 	}
