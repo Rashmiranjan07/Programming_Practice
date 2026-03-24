@@ -81,4 +81,10 @@ class PrimeNumber {
 		}
 		return true;
 	}
+/*
+5 
+2 
+2 
+7 
+*/
 }
