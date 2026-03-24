@@ -34,4 +34,7 @@ class multiOfElements{
 		}
 		System.out.println(mult);
 	}
+/*
+432
+*/
 }
