@@ -89,7 +89,6 @@ class PrimeNumber {
 */
 }
 
-
 class Factorial {
     public static void main(String[] args) {
         int a[] = {4, 2, 0, 3, 5};
@@ -101,11 +100,8 @@ class Factorial {
     }
 
     static int factorial(int n) {
-        int fact = 1;
-        for (int i = 1; i <= n; i++) {
-            fact *= i;
-        }
-        return fact;
+        if(n==0) return 1;
+        return n*factorial(n-1);
     }
     /*
 Factorial of 4 = 24
