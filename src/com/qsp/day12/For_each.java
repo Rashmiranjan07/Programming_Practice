@@ -72,10 +72,10 @@ class PrimeNumber {
 			}
 		}
 	}
-	public static boolean isPrime(int n) {
+	static boolean isPrime(int n) {
 		if (n <= 1)
 			return false; // 1 and below are not prime
-		for (int i = 2; i <= Math.sqrt(n); i++) {
+		for (int i = 2; i*i<=n; i++) {
 			if (n % i == 0)
 				return false; // Found a divisor
 		}
