@@ -19,7 +19,7 @@ class SumOfElements {
 		}
 		System.out.println(sum);
 	}
-	/*
+/*
 22
-	 */
+*/
 }
