@@ -23,3 +23,15 @@ class SumOfElements {
 22
 */
 }
+
+
+class multiOfElements{
+	public static void main(String[] args) {
+		int a[]= {9,2,6,4,1};
+		int mult = 1;
+		for (int num : a) {
+		    mult *= num;
+		}
+		System.out.println(mult);
+	}
+}
