@@ -38,3 +38,28 @@ class multiOfElements{
 432
 */
 }
+
+
+class x {
+	public static void main(String[] args) {
+		int a[] = { 5, 2, 9, 6, 2, 7 };
+		 System.out.println(diffSum(a));
+	}
+	static int diffSum(int a[]) {
+		int evenSum = 0;
+		int oddSum = 0;
+		for (int x : a) {
+			if (x % 2 == 0) {
+
+				evenSum += x;
+			} else {
+				oddSum += x;
+			}
+		}
+		return oddSum - evenSum;
+	}
+	/*
+11
+	 */
+}
+
