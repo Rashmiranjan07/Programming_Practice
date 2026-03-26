@@ -1,6 +1,5 @@
 //26-03-2026
 package com.qsp.day13;
-
 class MaxElement {
 	public static void main(String[] args) {
 		int a[] = { 2, 3, 9, 1, 5, 6 };
@@ -17,5 +16,7 @@ class MaxElement {
 		}
 		return max;
 	}
-
+	/*
+9
+	 */
 }
