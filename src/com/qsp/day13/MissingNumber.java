@@ -53,5 +53,7 @@ class MissingNumber2 {
 			}
 			return max;
 		}
-	 
+	/*
+Missing number is: 6 
+	 */
 }
