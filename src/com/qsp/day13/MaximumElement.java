@@ -1,14 +1,15 @@
 //26-03-2026
 package com.qsp.day13;
+
 class MaxElement {
 	public static void main(String[] args) {
 		int a[] = { 2, 3, 9, 1, 5, 6 };
-	//	System.out.println(Integer.MIN_VALUE);
-	//	System.out.println(Integer.MAX_VALUE);
+		// System.out.println(Integer.MIN_VALUE);
+		// System.out.println(Integer.MAX_VALUE);
 		int res = max(a);
 		System.out.println(res);
 	}
-	
+
 	static int max(int a[]) {
 		int max = Integer.MIN_VALUE;
 		for (int i = 0; i < a.length; i++) {
@@ -19,10 +20,50 @@ class MaxElement {
 		return max;
 	}
 	/*
-     9
+	 * 9
 	 */
 }
 
+// pegionhole principle
 
+class MaxElement2 {
+	public static void main(String[] args) {
+		int a[] = { 2, 3, 9, 1, 5, 6 };
+		// System.out.println(Integer.MIN_VALUE);
+		// System.out.println(Integer.MAX_VALUE);
+		int res = max(a);
+		System.out.println(res);
+	}
 
+	static int max(int a[]) {
+		int max = Integer.MIN_VALUE;
+		for (int x : a) {
+			if (x > max) {
+				max = x;
+			}
+		}
+		return max;
+	}
+	/*
+	 * 9
+	 */
+}
 
+class MinElement {
+	public static void main(String[] args) {
+		int a[] = { 2, 3, 9, 1, 5, 6 };
+		int res = min(a);
+		System.out.println(res);
+	}
+
+	static int min(int a[]) {
+		int min = Integer.MAX_VALUE;
+		for (int i = 0; i < a.length; i++) {
+			if (a[i] < min) {
+				min = a[i];
+			}
+		}
+		return min;
+	}
+	
+}
