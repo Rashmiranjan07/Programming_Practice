@@ -8,7 +8,6 @@ class MaxElement {
 		int res = max(a);
 		System.out.println(res);
 	}
-
 	static int max(int a[]) {
 		int max = Integer.MIN_VALUE;
 		for (int i = 0; i < a.length; i++) {
@@ -22,3 +21,7 @@ class MaxElement {
      9
 	 */
 }
+
+
+
+
