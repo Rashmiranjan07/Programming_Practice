@@ -3,6 +3,8 @@ package com.qsp.day13;
 class MaxElement {
 	public static void main(String[] args) {
 		int a[] = { 2, 3, 9, 1, 5, 6 };
+	//	System.out.println(Integer.MIN_VALUE);
+	//	System.out.println(Integer.MAX_VALUE);
 		int res = max(a);
 		System.out.println(res);
 	}
