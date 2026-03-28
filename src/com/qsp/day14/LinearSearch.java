@@ -14,5 +14,7 @@ class LinearSearch {
 		}
 		return -1;
 	}
-
+/*
+ -1
+ */
 }
