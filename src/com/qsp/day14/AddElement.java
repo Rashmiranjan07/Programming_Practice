@@ -5,20 +5,20 @@ import java.util.Arrays;
 class AddElement {
 	public static void main(String[] args) {
 		int[] a = { 9, 2, 6, 0, 4, 2, 6 };
-		addElement(a);
+
+		System.out.println(Arrays.toString(addElement(a, 9)));
 	}
-	static int[] addElement(int a[]) {
+
+	static int[] addElement(int a[], int newElement) {
 		int[] b = new int[a.length + 1];
 		for (int i = 0; i < a.length; i++) {
 			b[i] = a[i];
 		}
-		b[a.length] = 1;
+		b[a.length] = newElement;
 		a = b;
-		System.out.println(Arrays.toString(a));
 		return b;
 	}
 	/*
-	[9, 2, 6, 0, 4, 2, 6, 1]
-
+	 * [9, 2, 6, 0, 4, 2, 6, 1]
 	 */
 }
