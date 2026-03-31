@@ -49,5 +49,13 @@ class DigitSum {
 		System.out.println(sum);
 		return 0;
 	}
-
+	/*
+1
+2
+5
+2
+5
+7
+22
+	 */
 }
