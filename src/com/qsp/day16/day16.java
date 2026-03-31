@@ -85,5 +85,9 @@ class Vowelcount {
 	 */
 }
 
-
+class FindCharacter{
+	public static void main(String[] args) {
+		
+	}
+}
 
