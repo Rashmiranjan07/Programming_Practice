@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 //31-03-2026
 
-class day16 {
+class SumOfPrefix {
 	public static void main(String[] args) {
 		int a[] = { 9, 2, 6, 0, 4, 2 };
 		soluction(a);
