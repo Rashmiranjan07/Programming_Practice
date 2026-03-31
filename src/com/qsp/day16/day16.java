@@ -61,24 +61,29 @@ class DigitSum {
 }
 
 
- class Vowelcount {
-		public static void main(String[] args) {
-			System.out.println(NoOfVowel("hello World"));
+class Vowelcount {
+	public static void main(String[] args) {
+		String s = "hello World";
+		int res = NoOfVowel(s);
+		System.out.println(res);
+		System.out.println(s.length() - res);
 
+	}
+
+	static int NoOfVowel(String s) {
+		int count = 0;
+		s = s.toLowerCase();
+		for (int i = 0; i < s.length(); i++) {
+			char ch = s.charAt(i);
+			if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u')
+				count++;
 		}
-		static int NoOfVowel(String s) {
-			int count = 0;
-			s=s.toLowerCase();
-			for (int i = 0; i < s.length(); i++) {
-				char ch = s.charAt(i);
-				if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u')
-					count++;
-			}
-			return count;
-		}
-/*
- 3
- */
+		return count;
+	}
+	/*
+	 * 3
+	 * 
+	 */
 }
 
 
