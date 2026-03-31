@@ -2,6 +2,8 @@ package com.qsp.day16;
 
 import java.util.Arrays;
 
+//31-03-2026
+
 class PrefixSum {
 	public static void main(String[] args) {
 		int a[] = { 9, 2, 6, 0, 4, 2 };
