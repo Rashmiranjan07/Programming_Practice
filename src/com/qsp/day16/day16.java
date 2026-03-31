@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 //31-03-2026
 
-class PrefixSum {
+class day16 {
 	public static void main(String[] args) {
 		int a[] = { 9, 2, 6, 0, 4, 2 };
 		soluction(a);
@@ -59,3 +59,27 @@ class DigitSum {
 22
 	 */
 }
+
+
+ class Vowelcount {
+		public static void main(String[] args) {
+			System.out.println(noOfVowel("hello World"));
+
+		}
+
+		static int noOfVowel(String s) {
+			int count = 0;
+			for (int i = 0; i < s.length(); i++) {
+				char ch = s.charAt(i);
+
+				if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u')
+					count++;
+			}
+			return count;
+
+		}
+
+	}
+
+
+
