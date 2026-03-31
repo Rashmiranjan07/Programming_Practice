@@ -19,3 +19,13 @@ class PrefixSum {
 [9, 11, 17, 17, 21, 23]
 	 */
 }
+
+// each unicode and their correcponding value 
+
+class TypeConversion {
+	public static void main(String[] args) {
+		for( int i=0; i<=130; i++) {
+			System.out.println(i+" "+(char)(i));
+		}
+	}
+}
