@@ -85,9 +85,32 @@ class Vowelcount {
 	 */
 }
 
-class FindCharacter{
+class FindCharacter {
 	public static void main(String[] args) {
-		
+		String s = "h1@ellAB#$4c";
+		Sol(s);
+	}
+
+	static void Sol(String s) {
+		int upper = 0;
+		int lower = 0;
+		int digit = 0;
+		int Special = 0;
+		for (int i = 0; i < s.length(); i++) {
+			char ch = s.charAt(i);
+			if (ch >= 'a' && ch <= 'z') {
+				lower++;
+			} else if (ch >= 'A' && ch <= 'Z') {
+				upper++;
+			} else if (ch >= '0' && ch <= '9') {
+				digit++;
+			} else {
+				Special++;
+			}
+
+		}
+		System.out.println(upper + " " + lower + " " + digit + " " + Special + " ");
+
 	}
 }
 
