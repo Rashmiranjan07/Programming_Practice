@@ -69,7 +69,6 @@ class Vowelcount {
 		System.out.println(s.length() - res);
 
 	}
-
 	static int NoOfVowel(String s) {
 		int count = 0;
 		s = s.toLowerCase();
