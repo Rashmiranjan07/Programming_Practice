@@ -63,11 +63,10 @@ class DigitSum {
 
  class Vowelcount {
 		public static void main(String[] args) {
-			System.out.println(noOfVowel("hello World"));
+			System.out.println(NoOfVowel("hello World"));
 
 		}
-
-		static int noOfVowel(String s) {
+		static int NoOfVowel(String s) {
 			int count = 0;
 			for (int i = 0; i < s.length(); i++) {
 				char ch = s.charAt(i);
@@ -76,10 +75,11 @@ class DigitSum {
 					count++;
 			}
 			return count;
-
 		}
-
-	}
+/*
+ 3
+ */
+}
 
 
 
