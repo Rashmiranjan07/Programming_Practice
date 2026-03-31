@@ -82,7 +82,7 @@ class Vowelcount {
 	}
 	/*
 	 * 3
-	 * 
+	 * 8
 	 */
 }
 
