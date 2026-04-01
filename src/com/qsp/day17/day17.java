@@ -13,7 +13,7 @@ class MergeOfArray {
 		int i=0;
 		int j=0;
 		int k=0;
-		while (i<a.length && i<b.length) {
+		while (i<a.length && j<b.length) {
 			c[k]=a[i];
 			k++; i++;
 			c[k]=b[j];
