@@ -50,7 +50,6 @@ class MergeArrayWithSort {
 		int b[] = { 2, 3, 4, 6, 9, 10 };
 		int res[]=soluction(a, b);
 		System.out.println(Arrays.toString(res));
-
 	}
 
 	static int[] soluction(int a[], int b[]) {
@@ -80,10 +79,29 @@ class MergeArrayWithSort {
 		Arrays.sort(c);
 		return c;
 /*
- [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-		
+ [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]		
  */
 	}
 }
 
+class MergeArrayWithSort2 {
+	public static void main(String[] args) {
+		int a[] = { 9, 2, 6, 0 };
+		int b[] = { 4, 5, 6, 1, 3, 7 };
+		int res[]=soluction(a, b);
+		System.out.println(Arrays.toString(res));
+	}
 
+	static int[] soluction(int a[], int b[]) {
+
+		int c[] = new int[a.length + b.length];
+		int i = 0;
+		int j = 0;
+		int k = 0;
+	
+		return c;
+/*
+ [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]		
+ */
+	}
+}
