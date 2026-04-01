@@ -19,6 +19,12 @@ class MergeOfArray {
 			c[k]=b[j];
 			k++; j++;
 		}
+		while(i<a.length) {
+			c[k]=a[i]; i++; k++;
+		}
+		while(j<b.length) {
+			c[k]=b[j]; j++; k++;
+		}
 		return c;
 
 	}
