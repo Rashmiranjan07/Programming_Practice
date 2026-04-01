@@ -86,9 +86,9 @@ class MergeArrayWithSort {
 
 class MergeArrayWithSort2 {
 	public static void main(String[] args) {
-		int a[] = { 9, 2, 6, 0 };
-		int b[] = { 4, 5, 6, 1, 3, 7 };
-		int res[]=soluction(a, b);
+		int a[] = { 1, 5, 7, 8 };
+		int b[] = { 2, 3, 4, 6, 9, 10 };
+		int res[] = soluction(a, b);
 		System.out.println(Arrays.toString(res));
 	}
 
@@ -98,10 +98,30 @@ class MergeArrayWithSort2 {
 		int i = 0;
 		int j = 0;
 		int k = 0;
-	
+		while (i < a.length && j < b.length) {
+			if (a[i] < b[j]) {
+				c[k] = a[i];
+				i++;
+				k++;
+			} else {
+				c[k] = b[j];
+				j++;
+				k++;
+			}
+
+		}
+		while (i < a.length) {
+			c[k] = a[i];
+			i++;
+			k++;
+		}
+		while (j < b.length) {
+			c[k] = b[j];
+			j++;
+			k++;
+		}
+
 		return c;
-/*
- [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]		
- */
+
 	}
 }
