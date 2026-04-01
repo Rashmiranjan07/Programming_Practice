@@ -37,5 +37,8 @@ class MergeOfArray {
 		return c;
 
 	}
+	/*
+[9, 4, 2, 5, 6, 6, 0, 1, 3, 7]
+	 */
 
 }
