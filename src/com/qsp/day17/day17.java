@@ -10,8 +10,14 @@ class MergeOfArray {
 
 	static int[] soluction(int a[], int b[]) {
 		int c[] = new int[a.length + b.length];
-		for(int i=0; i<a.length; i++) {
-			
+		int i=0;
+		int j=0;
+		int k=0;
+		while () {
+			c[k]=a[i];
+			k++; i++;
+			c[k]=b[j];
+			k++; j++;
 		}
 		return c;
 
