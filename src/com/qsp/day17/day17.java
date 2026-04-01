@@ -4,7 +4,7 @@ class MergeOfArray {
 	public static void main(String[] args) {
 		int a[]= {9,2,6,0};
 		int b[]= {4,5,6,1,3,7};
-		
+		 soluction(a,b);
 
 	}
 
@@ -13,7 +13,7 @@ class MergeOfArray {
 		int i=0;
 		int j=0;
 		int k=0;
-		while () {
+		while (i<a.length && i<b.length) {
 			c[k]=a[i];
 			k++; i++;
 			c[k]=b[j];
