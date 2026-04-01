@@ -136,7 +136,6 @@ class ReplceChar {
 		System.out.println(op);
 
 	}
-
 	static String replcechar(String s, char oldChar, char newChar) {
 		char ch[] = s.toCharArray();
 
