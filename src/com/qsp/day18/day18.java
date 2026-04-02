@@ -37,5 +37,8 @@ class FindKey2 {
 }
 
 class Panagram {
+	public static void main(String[] args) {
+		
+	}
 	
 }
