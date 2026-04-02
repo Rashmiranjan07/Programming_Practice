@@ -56,5 +56,8 @@ class Panagram {
 		return true;
 
 	}
+/*
+The given string is a Pangram.
 
+ */
 }
