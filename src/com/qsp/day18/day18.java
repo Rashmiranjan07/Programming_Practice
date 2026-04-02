@@ -35,3 +35,8 @@ class FindKey2 {
 	 */
 
 }
+
+
+class Panagram {
+	
+}
