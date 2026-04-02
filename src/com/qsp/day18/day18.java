@@ -46,7 +46,6 @@ class Panagram {
 			System.out.println("The given string is NOT a Pangram.");
 		}
 	}
-
 	static boolean isPanagram(String s) {
 		for (char ch = 'a'; ch <= 'z'; ch++) {
 			if (s.indexOf(ch) == -1) {
