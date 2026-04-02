@@ -27,5 +27,11 @@ class FindKey2 {
 		System.out.println(removed);
 		System.out.println(removed / key.length());
 	}
+	/*
+21
+9
+12
+4
+	 */
 
 }
