@@ -73,6 +73,14 @@ class FrequencyNumber {
 			}
 			System.out.println(j + " --> " + freqArr[j]);
 		}
+/*
+ 1 --> 1
+2 --> 2
+4 --> 2
+6 --> 2
+8 --> 1
+9 --> 1
 
+ */
 	}
 }
