@@ -63,7 +63,7 @@ class FrequencyNumber {
 		findFrec(arr);
 	}
 	static void findFrec(int[] arr) {
-		int[] freqArr = new int[10000];
+		int[] freqArr = new int[1001]; 
 		for (int i = 0; i < arr.length; i++) {
 			freqArr[arr[i]]++;
 		}
