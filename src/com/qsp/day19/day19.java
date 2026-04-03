@@ -25,3 +25,37 @@ class FrequencyOfChar {
 	}
 
 }
+
+
+class Panagram {
+	public static void main(String[] args) {
+		String str = "The quick brown fox jumps over the lazy dog";
+
+		if (isPanagram(str)) {
+			System.out.println("The given string is a Pangram.");
+		} else {
+			System.out.println("The given string is NOT a Pangram.");
+		}
+	}
+
+	static boolean isPanagram(String str) {
+		boolean a[] = new boolean[26];
+		str = str.toLowerCase();
+		for (int i = 0; i < str.length(); i++) {
+			char ch = str.charAt(i);
+
+			if (ch >= 'a' && ch <= 'z') {
+				a[ch - 'a'] = true;
+			}
+		}
+		for (int i = 0; i < 26; i++) {
+			if (!a[i]) {
+				return false;
+			}
+
+		}
+		return true;
+	}
+}
+
+
