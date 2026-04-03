@@ -8,6 +8,7 @@ import java.util.Arrays;
 class FrequencyOfChar {
 	public static void main(String[] args) {
 		int a[] = new int[26];
+		solution("abcdefabghkij");
 
 	}
 
