@@ -26,7 +26,6 @@ class FrequencyOfChar {
 
 }
 
-
 class Panagram {
 	public static void main(String[] args) {
 		String str = "abcd";
@@ -53,7 +52,7 @@ class Panagram {
 		return true;
 	}
 	/*
-The given string is NOT a Pangram.
+	 * The given string is NOT a Pangram.
 	 */
 }
 
@@ -62,8 +61,9 @@ class FrequencyNumber {
 		int[] arr = { 4, 2, 6, 1, 9, 2, 6, 4, 8 };
 		findFrec(arr);
 	}
+
 	static void findFrec(int[] arr) {
-		int[] freqArr = new int[1001]; 
+		int[] freqArr = new int[1001];
 		for (int i = 0; i < arr.length; i++) {
 			freqArr[arr[i]]++;
 		}
@@ -73,27 +73,22 @@ class FrequencyNumber {
 			}
 			System.out.println(j + " --> " + freqArr[j]);
 		}
-/*
- 1 --> 1
-2 --> 2
-4 --> 2
-6 --> 2
-8 --> 1
-9 --> 1
- */
+		/*
+		 * 1 --> 1 2 --> 2 4 --> 2 6 --> 2 8 --> 1 9 --> 1
+		 */
 	}
 }
 
-
 class FrequencyNumber2 {
 	public static void main(String[] args) {
-		int[] a = {1,2,9,2,6,0,4,2,6,1 };
+		int[] a = { 1, 2, 9, 2, 6, 0, 4, 2, 6, 1 };
 		findFrec(a);
 	}
+
 	static void findFrec(int[] a) {
-		int[] f = new int[1001]; 
+		int[] f = new int[1001];
 		for (int i = 0; i < a.length; i++) {
-			int index=a[i];
+			int index = a[i];
 			f[index]++;
 		}
 		for (int i = 0; i < f.length; i++) {
@@ -102,21 +97,39 @@ class FrequencyNumber2 {
 			}
 			System.out.println(i + " --> " + f[i]);
 		}
-/*
-0 --> 1
-1 --> 2
-2 --> 3
-4 --> 1
-6 --> 2
-9 --> 1
-
- */
+		/*
+		 * 0 --> 1 1 --> 2 2 --> 3 4 --> 1 6 --> 2 9 --> 1
+		 * 
+		 */
 	}
 }
 
 class Anagram {
 	public static void main(String[] args) {
-		
+		System.out.println(isAnagram("abacdbf", "aacbdbf"));
 	}
-	
+
+	static boolean isAnagram(String s1, String s2) {
+		if (s1.length() != s2.length()) {
+			return false;
+		}
+		int[] a = new int[26];
+		int[] b = new int[26];
+		for (int i = 0; i < s1.length(); i++) {
+			a[s1.charAt(i) - 'a']++;
+			b[s2.charAt(i) - 'a']++;
+		}
+		//System.out.println(Arrays.toString(a));
+		//System.out.println(Arrays.toString(b));
+		for (int i = 0; i < 26; i++) {
+			if (a[i] != b[i]) {
+				return false;
+			}
+		}
+		return true;
+	}
+	/*
+true
+
+	 */
 }
