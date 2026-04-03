@@ -87,7 +87,7 @@ class FrequencyNumber {
 
 class FrequencyNumber2 {
 	public static void main(String[] args) {
-		int[] a = { 4, 2, 6, 1, 9, 2, 6, 4, 8 };
+		int[] a = {1,2,9,2,6,0,4,2,6,1 };
 		findFrec(a);
 	}
 	static void findFrec(int[] a) {
@@ -102,13 +102,6 @@ class FrequencyNumber2 {
 			}
 			System.out.println(i + " --> " + f[i]);
 		}
-/*
- 1 --> 1
-2 --> 2
-4 --> 2
-6 --> 2
-8 --> 1
-9 --> 1
- */
+
 	}
 }
