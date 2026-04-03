@@ -121,7 +121,7 @@ class Anagram {
 		}
 		//System.out.println(Arrays.toString(a));
 		//System.out.println(Arrays.toString(b));
-		for (int i = 0; i < 26; i++) {
+		for (int i = 0; i < a.length; i++) {
 			if (a[i] != b[i]) {
 				return false;
 			}
