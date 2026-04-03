@@ -59,7 +59,20 @@ The given string is NOT a Pangram.
 
 class FrequencyNumber {
 	public static void main(String[] args) {
-		
+		int[] arr = { 4, 2, 6, 1, 9, 2, 6, 4, 8 };
+		findFrec(arr);
+	}
+	static void findFrec(int[] arr) {
+		int[] freqArr = new int[10000];
+		for (int i = 0; i < arr.length; i++) {
+			freqArr[arr[i]]++;
+		}
+		for (int j = 0; j < freqArr.length; j++) {
+			if (freqArr[j] == 0) {
+				continue;
+			}
+			System.out.println(j + " --> " + freqArr[j]);
+		}
+
 	}
 }
-
