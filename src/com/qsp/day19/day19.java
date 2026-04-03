@@ -113,3 +113,10 @@ class FrequencyNumber2 {
  */
 	}
 }
+
+class Anagram {
+	public static void main(String[] args) {
+		
+	}
+	
+}
