@@ -80,7 +80,6 @@ class FrequencyNumber {
 6 --> 2
 8 --> 1
 9 --> 1
-
  */
 	}
 }
