@@ -4,5 +4,11 @@ package com.qsp.day19;
 //( the string only contains lowercase character ) 
 
 class Frequency {
+	public static void main(String[] args) {
+		
+	}
+	
+	
+	
 
 }
