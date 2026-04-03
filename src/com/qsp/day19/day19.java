@@ -102,6 +102,14 @@ class FrequencyNumber2 {
 			}
 			System.out.println(i + " --> " + f[i]);
 		}
+/*
+0 --> 1
+1 --> 2
+2 --> 3
+4 --> 1
+6 --> 2
+9 --> 1
 
+ */
 	}
 }
