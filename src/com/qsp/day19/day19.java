@@ -130,6 +130,5 @@ class Anagram {
 	}
 	/*
 true
-
 	 */
 }
