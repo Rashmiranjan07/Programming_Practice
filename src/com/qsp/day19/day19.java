@@ -132,5 +132,7 @@ class Anagram {
 		}
 		return true;
 	}
-	
+	/*
+true
+	 */
 }
