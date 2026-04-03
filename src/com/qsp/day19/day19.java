@@ -29,7 +29,7 @@ class FrequencyOfChar {
 
 class Panagram {
 	public static void main(String[] args) {
-		String str = "The quick brown fox jumps over the lazy dog";
+		String str = "abcd";
 
 		if (isPanagram(str)) {
 			System.out.println("The given string is a Pangram.");
@@ -39,23 +39,20 @@ class Panagram {
 	}
 
 	static boolean isPanagram(String str) {
-		boolean a[] = new boolean[26];
-		str = str.toLowerCase();
+		int a[] = new int[26];
 		for (int i = 0; i < str.length(); i++) {
-			char ch = str.charAt(i);
+			int index = str.charAt(i) - 'a';
+			a[index]++;
 
-			if (ch >= 'a' && ch <= 'z') {
-				a[ch - 'a'] = true;
-			}
 		}
-		for (int i = 0; i < 26; i++) {
-			if (!a[i]) {
+		for (int x : a) {
+			if (x == 0) {
 				return false;
 			}
-
 		}
 		return true;
 	}
+	
 }
 
 
