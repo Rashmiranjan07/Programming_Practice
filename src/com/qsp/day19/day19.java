@@ -52,7 +52,9 @@ class Panagram {
 		}
 		return true;
 	}
-	
+	/*
+The given string is NOT a Pangram.
+	 */
 }
 
 
