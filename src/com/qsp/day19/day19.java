@@ -57,4 +57,9 @@ The given string is NOT a Pangram.
 	 */
 }
 
+class FrequencyNumber {
+	public static void main(String[] args) {
+		
+	}
+}
 
