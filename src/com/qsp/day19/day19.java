@@ -106,7 +106,8 @@ class FrequencyNumber2 {
 
 class Anagram {
 	public static void main(String[] args) {
-		System.out.println(isAnagram("abacdbf", "aacbdbf"));
+
+		System.out.println(isAnagram("abc","bac"));
 	}
 
 	static boolean isAnagram(String s1, String s2) {
@@ -116,11 +117,14 @@ class Anagram {
 		int[] a = new int[26];
 		int[] b = new int[26];
 		for (int i = 0; i < s1.length(); i++) {
-			a[s1.charAt(i) - 'a']++;
-			b[s2.charAt(i) - 'a']++;
+			int index1 = s1.charAt(i) - 'a';
+			a[index1]++;
+			int index2 = s2.charAt(i) - 'a';
+			b[index2]++;
+
 		}
-		//System.out.println(Arrays.toString(a));
-		//System.out.println(Arrays.toString(b));
+		// System.out.println(Arrays.toString(a));
+		// System.out.println(Arrays.toString(b));
 		for (int i = 0; i < a.length; i++) {
 			if (a[i] != b[i]) {
 				return false;
@@ -128,7 +132,5 @@ class Anagram {
 		}
 		return true;
 	}
-	/*
-true
-	 */
+	
 }
