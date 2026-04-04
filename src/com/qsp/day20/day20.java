@@ -21,4 +21,8 @@ class ReverseSentense {
 		}
 		return res;
 	}
+	/*
+[java, is, easy]
+ easy is java
+	 */
 }
