@@ -82,6 +82,54 @@ class AllSubstrings {
        }
         
     }
+    /*
+m
+ma
+mal
+mala
+malay
+malaya
+malayal
+malayala
+malayalam
+a
+al
+ala
+alay
+alaya
+alayal
+alayala
+alayalam
+l
+la
+lay
+laya
+layal
+layala
+layalam
+a
+ay
+aya
+ayal
+ayala
+ayalam
+y
+ya
+yal
+yala
+yalam
+a
+al
+ala
+alam
+l
+la
+lam
+a
+am
+m
+
+     */
 }
 
 
