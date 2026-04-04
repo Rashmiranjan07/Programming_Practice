@@ -5,7 +5,7 @@ import java.util.Arrays;
 class ReverseSentense {
 	public static void main(String[] args) {
 		String s = "java is easy";
-		reverse(s);
+		System.out.println(reverse(s));
 	}
 
 	static String reverse(String s) {
