@@ -26,3 +26,16 @@ class ReverseSentense {
  easy is java
 	 */
 }
+
+
+
+
+
+class ReverseWordInString{
+	public static void main(String[] args) {
+		
+	}
+	
+	
+	
+}
