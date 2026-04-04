@@ -72,7 +72,25 @@ avaJ lluf kcats esruoc
 
 
 
+class AllSubstrings {
+    public static void main(String[] args) {
+        String s = "malayalam";
+        printSubstrings(s);
+    }
 
+    static void printSubstrings(String s) {
+        int n = s.length();
 
-
+        for (int len = 1; len <= n; len++) {   // substring length
+            System.out.print(len + " ln substring - ");
+            
+            for (int i = 0; i <= n - len; i++) {
+                String sub = s.substring(i, i + len);
+                System.out.print(sub + " ");
+            }
+            
+            System.out.println();
+        }
+    }
+}
 
