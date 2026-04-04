@@ -71,7 +71,6 @@ avaJ lluf kcats esruoc
 }
 
 
-
 class AllSubstrings {
     public static void main(String[] args) {
         String s = "malayalam";
@@ -128,8 +127,7 @@ lam
 a
 am
 m
-
-     */
+  */
 }
 
 
