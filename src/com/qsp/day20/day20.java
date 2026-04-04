@@ -6,7 +6,6 @@ class ReverseSentense {
 	public static void main(String[] args) {
 		String s="java is easy";
 		reverse(s);
-		
 	}
 	static String reverse(String s) {
 		String sa[]=s.split(" ");
