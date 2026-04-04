@@ -30,7 +30,7 @@ class ReverseSentense {
 
 class ReverseWordInString {
 	public static void main(String[] args) {
-		String s = "Java is easy";
+		String s = "Java full stack course";
 		String res=reverse(s);
 		System.out.println(res);
 		
@@ -64,5 +64,7 @@ class ReverseWordInString {
 		return new String(ch);
 
 	}
+/*
 
+ */
 }
