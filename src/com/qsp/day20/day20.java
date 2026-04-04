@@ -73,7 +73,7 @@ avaJ lluf kcats esruoc
 
 class AllSubstrings {
     public static void main(String[] args) {
-        String s = "malayalam";
+        String s = "john";
        for(int i=0; i<s.length();i++) {
     	   for(int j=i+1; j<=s.length();j++) {
     		   System.out.println(s.substring(i,j));
@@ -82,51 +82,17 @@ class AllSubstrings {
         
     }
     /*
-m
-ma
-mal
-mala
-malay
-malaya
-malayal
-malayala
-malayalam
-a
-al
-ala
-alay
-alaya
-alayal
-alayala
-alayalam
-l
-la
-lay
-laya
-layal
-layala
-layalam
-a
-ay
-aya
-ayal
-ayala
-ayalam
-y
-ya
-yal
-yala
-yalam
-a
-al
-ala
-alam
-l
-la
-lam
-a
-am
-m
+j
+jo
+joh
+john
+o
+oh
+ohn
+h
+hn
+n
+
   */
 }
 
