@@ -28,9 +28,6 @@ class ReverseSentense {
 }
 
 
-
-
-
 class ReverseWordInString{
 	public static void main(String[] args) {
 		String s="Java is easy";
