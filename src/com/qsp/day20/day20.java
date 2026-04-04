@@ -11,7 +11,15 @@ class ReverseSentense {
 	static String reverse(String s) {
 		String sa[]=s.split(" ");
 		System.out.println(Arrays.toString(sa));
-		return null;
+		String res=" ";
+		for(int i=sa.length-1;i>=0;i--) {
+			res=res+sa[i];
+			if(i==0) {
+				continue;
+			}
+			res=res+ " ";
+		}
+		return res;
 	}
 
 }
