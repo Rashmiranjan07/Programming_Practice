@@ -1,5 +1,7 @@
 package com.qsp.day21;
 
+import java.util.Scanner;
+
 class ReverseSentense {
 	public static void main(String[] args) {
 		String s = "malayalam";
@@ -93,8 +95,16 @@ class Fibonacci{
 	}
 }
 
-class Fibonacci2{
+class Fibonacci2 {
 	public static void main(String[] args) {
-		
+
+		fib(0, 1, 1, 10);
+	}
+
+	static void fib(int a, int b, int count, int limit) {
+		if (count > limit)
+			return;
+		System.out.println(a);
+		fib(b, a + b, ++count, limit);
 	}
 }
