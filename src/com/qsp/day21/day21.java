@@ -24,4 +24,21 @@ class ReverseSentense {
 		}
 		return true;
 	}
+	/*
+m
+malayalam
+a
+ala
+alayala
+l
+layal
+a
+aya
+y
+a
+ala
+l
+a
+m
+	 */
 }
