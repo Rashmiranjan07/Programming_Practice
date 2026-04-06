@@ -75,3 +75,28 @@ class ReverseSentenseMaxLength {
  */
 }
 
+// Using loop 
+class Fibonacci{
+	public static void main(String[] args) {
+		Fibonacci(10);
+	}
+	static  void  Fibonacci(int n) {
+		int a=0;
+		int b=1;
+		for( int i=1; i<=n; i++) {
+			System.out.println(a);
+			int c=a+b;
+			a=b;
+			b=c;
+		}
+		
+	}
+}
+
+
+
+class Fibonacci2{
+	public static void main(String[] args) {
+		
+	}
+}
