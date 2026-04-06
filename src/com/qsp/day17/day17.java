@@ -144,7 +144,6 @@ class ReplceChar {
 				ch[i] = newChar;
 			}
 		}
-
 		return new String(ch);
 	}
 /*
