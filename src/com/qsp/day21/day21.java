@@ -1,5 +1,24 @@
 package com.qsp.day21;
 
-class day21 {
+class ReverseSentense {
+	public static void main(String[] args) {
+		String s="malayalam";
+		for(int i=0; i<s.length();i++) {
+			for(int j=i+1; j<=s.length(); j++ ) {
+				String temp=s.substring(i,j);
+				if(isPalindrome(temp)) {
+					System.out.println(temp);
+				}
+			}
+		}
+	}
+	static boolean isPalindrome(String s) {
+		int i=0;
+		int j=s.length()-1;
+		
+		
+		
+	
+	}
 
 }
