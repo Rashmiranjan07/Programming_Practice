@@ -97,14 +97,24 @@ class Fibonacci{
 
 class Fibonacci2 {
 	public static void main(String[] args) {
-
 		fib(0, 1, 1, 10);
 	}
-
 	static void fib(int a, int b, int count, int limit) {
 		if (count > limit)
 			return;
 		System.out.println(a);
 		fib(b, a + b, ++count, limit);
 	}
+	/*
+0
+1
+1
+2
+3
+5
+8
+13
+21
+34
+	 */
 }
