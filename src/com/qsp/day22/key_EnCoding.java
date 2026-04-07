@@ -2,7 +2,7 @@ package com.qsp.day22;
 
 class key_EnCoding {
 	public static void main(String[] args) {
-		String s = "abcdef";
+		String s = "abcdefuvwxyz";
 		sol(s, 4);
 	}
 
@@ -11,7 +11,9 @@ class key_EnCoding {
 			char ch = s.charAt(i);
 			char temp = (char) (ch + key);
 			if (temp > 'z') {
-
+				int used = 'z' - ch;
+				int pending = key - used;
+				temp = (char) (96 + pending);
 			}
 			System.out.println(ch + "->" + temp);
 		}
