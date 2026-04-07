@@ -19,5 +19,19 @@ class key_EnCoding {
 		}
 		return null;
 	}
+	/*
+a->e
+b->f
+c->g
+d->h
+e->i
+f->j
+u->y
+v->z
+w->a
+x->b
+y->c
+z->d
+	 */
 
 }
