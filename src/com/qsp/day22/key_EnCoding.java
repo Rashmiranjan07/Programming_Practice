@@ -11,8 +11,8 @@ class key_EnCoding {
 			char ch = s.charAt(i);
 			char temp = (char) (ch + key);
 			if (temp > 'z') {
-				int used = 'z' - ch;
-				int pending = key - used;
+				int used = 'z' - ch;  //calculate how many used
+				int pending = key - used; // calculate how many pendinng
 				temp = (char) (96 + pending);
 			}
 			System.out.println(ch + "->" + temp);
