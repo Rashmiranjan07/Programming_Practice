@@ -7,5 +7,11 @@ class TwoDArray {
 				{6,2,1,7},
 				{5,2,1}
 		};
+		for(int b[]:a) {
+			for(int x:b) {
+				System.out.print(x+" ");
+			}
+			System.out.println();
+		}
 	}
 }
