@@ -14,4 +14,9 @@ class TwoDArray {
 			System.out.println();
 		}
 	}
+	/*
+2 3 4 
+6 2 1 7 
+5 2 1 
+	 */
 }
