@@ -26,5 +26,20 @@ class FibonacciSequence {
 		}
 		return arr;
 	}
-
+/*
+Enter a number 
+10
+0
+1
+1
+2
+3
+5
+8
+13
+21
+34
+Fibonacci sequence in array:
+[0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
+ */
 }
