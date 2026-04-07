@@ -21,5 +21,7 @@ class key_EnCoding {
 		}
 		return res;
 	}
-
+/*
+ efghijyzabcd
+ */
 }
