@@ -8,5 +8,4 @@ class TwoDArray {
 				{5,2,1}
 		};
 	}
-
 }
