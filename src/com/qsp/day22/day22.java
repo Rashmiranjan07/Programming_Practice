@@ -44,7 +44,7 @@ Fibonacci sequence in array:
  */
 }
 
-// Another method 
+// Another method :- 
 
 class FibonacciSequence2 {
 	public static void main(String[] args) {
