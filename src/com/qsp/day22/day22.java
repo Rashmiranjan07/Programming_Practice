@@ -43,3 +43,20 @@ Fibonacci sequence in array:
 [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
  */
 }
+
+
+class FibonacciSequence2 {
+	public static void main(String[] args) {
+		sol(10);
+	}
+
+	static void sol(int n) {
+		int a[] = new int[n];
+		a[0] = 0;
+		a[1] = 1;
+		for (int i = 2; i < a.length; i++) {
+			a[i] = a[i - 1] + a[i - 2];
+		}
+		System.out.println(Arrays.toString(a));
+	}
+}
