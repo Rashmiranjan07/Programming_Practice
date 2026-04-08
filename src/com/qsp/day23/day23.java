@@ -1,5 +1,5 @@
 package com.qsp.day23;
 
-class day23 {
+class TwoDArray {
 
 }
