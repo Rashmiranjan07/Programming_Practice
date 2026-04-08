@@ -19,5 +19,7 @@ class SumOfDiagonal {
 		}
 		System.out.println(sum);
 	}
-
+/*
+36
+ */
 }
