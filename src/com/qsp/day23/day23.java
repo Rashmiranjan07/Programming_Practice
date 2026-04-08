@@ -11,10 +11,15 @@ class TwoDArray {
 			for (int j = 0; j < a[i].length; j++) {
 				if (j == 0 || j == a[i].length - 1) {
 					a[i][j] = 1;
+				}else {
+					a[i][j] = a[i - 1][j - 1] + a[i - 1][j];
 				}
 			}
 		}
 		for (int x[] : a)
 			System.out.println(Arrays.toString(x));
 	}
+	/*
+
+	 */
 }
