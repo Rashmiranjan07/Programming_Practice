@@ -20,6 +20,6 @@ class MaxElementLast {
 		System.out.println(Arrays.toString(a));
 	}
 	/*
-
+[2, 4, 1, 6, 3, 2, 8, 9]
 	 */
 }
