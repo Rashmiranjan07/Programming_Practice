@@ -25,3 +25,16 @@ class SelectionSort {
 [1, 2, 2, 3, 4, 6, 8, 9]
  */
 }
+
+/*
+ * There is an in buid method to sort the array 
+ Arrays.sort(a);
+ System.out.println(Arrays.toString(a))
+ 
+ 
+ 
+ 
+ */
+
+
+
