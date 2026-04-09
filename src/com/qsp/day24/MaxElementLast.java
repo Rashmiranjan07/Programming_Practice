@@ -9,7 +9,7 @@ class MaxElementLast {
 	}
 
 	static void soluction(int a[]) {
-		for (int j = 0; j < a.length; j++) {
+		for (int j = 0; j < a.length-1; j++) {
 			if (a[j] > a[j + 1]) {
 				int temp = a[j];
 				a[j] = a[j + 1];
@@ -19,4 +19,7 @@ class MaxElementLast {
 		}
 		System.out.println(Arrays.toString(a));
 	}
+	/*
+
+	 */
 }
