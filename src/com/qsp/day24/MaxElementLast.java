@@ -1,5 +1,5 @@
 package com.qsp.day24;
 
-class day24 {
+class MaxElementLast {
 
 }
