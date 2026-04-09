@@ -31,9 +31,6 @@ class SelectionSort {
  Arrays.sort(a);
  System.out.println(Arrays.toString(a))
  
- 
- 
- 
  */
 
 
