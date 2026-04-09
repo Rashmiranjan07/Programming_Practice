@@ -19,4 +19,8 @@ class BubbleSort {
 	    	}
 	    	System.out.println(Arrays.toString(a));
 	    }
+	    /*
+[1, 1, 2, 2, 3, 3, 4, 4, 4, 5, 6, 8, 10]
+
+	     */
 	}
