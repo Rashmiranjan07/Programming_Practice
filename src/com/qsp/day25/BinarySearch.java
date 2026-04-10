@@ -5,4 +5,5 @@ class BinarySearch {
 		int a[] = { 1, 3, 4, 5, 7, 8, 10, 12 };
 
 	}
+	
 }
