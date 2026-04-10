@@ -15,4 +15,7 @@ class SecondBiggestElement {
 		}
 		System.out.println(secMax);
 	}
+	/*
+
+	 */
 }
