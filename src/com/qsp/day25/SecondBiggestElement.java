@@ -21,4 +21,8 @@ class SecondBiggestElement {
 		return secondmax;
 
 	}
+	/*
+7
+
+	 */
 }
