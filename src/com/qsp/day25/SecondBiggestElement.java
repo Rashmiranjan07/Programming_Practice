@@ -21,15 +21,13 @@ class SecondBiggestElement {
 		return secondmax;
 	}
 	/*
-7
+	 * 7
 	 */
 }
 
-
-
 class Secondmax {
 	public static void main(String[] args) {
-		int[] a = { 2,3,5,1,6,2,7,9,9 };
+		int[] a = { 2, 3, 5, 1, 6, 2, 7, 9, 9 };
 		System.out.println(sol(a));
 	}
 
@@ -40,6 +38,8 @@ class Secondmax {
 			if (a[i] > max) {
 				secondMax = max;
 				max = a[i];
+			} else if (a[i] > secondMax && a[i] != max) {
+				secondMax = a[i];
 			}
 		}
 		return secondMax;
@@ -48,4 +48,3 @@ class Secondmax {
 7
 	 */
 }
-
