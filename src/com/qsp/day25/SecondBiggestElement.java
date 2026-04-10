@@ -23,6 +23,5 @@ class SecondBiggestElement {
 	}
 	/*
 7
-
 	 */
 }
