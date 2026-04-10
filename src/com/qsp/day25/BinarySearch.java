@@ -23,6 +23,6 @@ class BinarySearch {
 
 	}
 	/*
-3
+	 * 3
 	 */
 }
