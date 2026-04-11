@@ -22,7 +22,7 @@ class BinarySearch {
 		return -1;
 
 	}
-	/*
-	 * 3
-	 */
+/*
+* 3
+*/
 }
