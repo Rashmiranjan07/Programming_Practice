@@ -20,6 +20,3 @@ This repository documents my journey of solving coding problems consistently for
 - Patterns  
 - Searching & Sorting  
 - Basic Java Programs  
-
-
-
