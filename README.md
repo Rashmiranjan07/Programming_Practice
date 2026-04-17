@@ -19,7 +19,5 @@ This repository documents my journey of solving coding problems consistently for
 - Recursion  
 - Patterns  
 - Searching & Sorting  
-- Basic Java Programs  
-
-
-
+- Basic Java Programs
+- Number Patterns
