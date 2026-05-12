@@ -13,7 +13,6 @@ This repository documents my journey of solving coding problems consistently for
 ---
 
 ## 🧠 Topics Covered
-
 - Arrays  
 - Strings  
 - Recursion  
@@ -21,4 +20,3 @@ This repository documents my journey of solving coding problems consistently for
 - Searching & Sorting  
 - Basic Java Programs
 - Number Patterns program 
-
