@@ -36,6 +36,5 @@ Enter the first number
 Enter the first number
 6
 LCM of 60 and 6 is 60
-
 	 */
 }
